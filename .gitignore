@@ -1,0 +1,14 @@
+# Ignore KiCad exports / outputs
+*.step
+*.stp
+*.3ds
+*.wrl
+
+*.sch-bak
+*.kicad_pcb-bak
+*-backups/
+*.tmp
+
+# KiCad autosave
+*.kicad_sch-bak
+*.kicad_pro-bak

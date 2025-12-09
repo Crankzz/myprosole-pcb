@@ -611,7 +611,7 @@
 					(type none)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -0.635 9.525 180)
 				(length 3.81)
 				(name "5V"
@@ -629,7 +629,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -0.635 6.985 180)
 				(length 3.81)
 				(name "GND"
@@ -647,7 +647,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -0.635 4.445 180)
 				(length 3.81)
 				(name "3V3"

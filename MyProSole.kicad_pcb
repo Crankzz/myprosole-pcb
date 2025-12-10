@@ -5676,6 +5676,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "MyProSole Rev ${Revision}  -  ${Date}"
+		(at 120.8 48.8 0)
+		(layer "B.SilkS")
+		(uuid "8ccc5482-d3f0-49ad-9c82-94b15a04a0e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "100nF"
 		(at 104.4 78.2 90)
 		(layer "F.Fab")

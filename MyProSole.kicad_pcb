@@ -2446,6 +2446,97 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "MyProSoleLib:ESP32_C3"
+		(layer "F.Cu")
+		(uuid "76e577db-5aeb-47d9-9ecf-17af6786d5f2")
+		(at 81.2 67.4 180)
+		(property "Reference" "REF**"
+			(at 0 -0.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c3b8d323-3db3-4559-8282-1ec6ab964b7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "ESP32_C3"
+			(at 0 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5d4698be-a325-4c5b-92ef-c53a21dcd53e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb0ddf32-5b42-4903-b71d-656545912e54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db491c86-28f6-4e91-888a-90c4efc094bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -15.5 -6.5)
+			(end 5.5 11.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d5c9b92f-23a6-4967-ad73-5f2ad58c4ac4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c327e660-8a5c-4696-a383-9796d1df7785")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "/home/bgores/Dokumente/seeed-studio-xiao-esp32-c6-1.snapshot.3/Seeed Studio XIAO ESP32-C6.step"
+			(offset
+				(xyz -7 -8.5 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "787ff64d-479c-4fae-9d65-e5fb02a03db8")
@@ -4356,97 +4447,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "MyProSoleLib:Unbenannt"
-		(layer "F.Cu")
-		(uuid "d1fb3d02-b612-4345-bcef-face1295c536")
-		(at 81.6 67.5 180)
-		(property "Reference" "REF**"
-			(at 0 -0.5 180)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "bce2fc0b-8299-4941-8c8d-3e4453ffaf0a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "Unbenannt"
-			(at 0 1 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "9d3656f2-28de-4571-8cf0-a3ae1dfdded8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "569ce37f-8b98-4953-bc4b-a7f4023e97f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18f38498-ed4f-4fd0-9924-73a8947bb192")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr smd)
-		(fp_rect
-			(start -15.5 -6.5)
-			(end 5.5 11.5)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "21903c72-cb6a-497d-97b5-ee5ba079fcad")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "721f83d7-6cfb-443c-9dea-0ccab8eb717c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-		(model "/home/bgores/Dokumente/seeed-studio-xiao-esp32-c6-1.snapshot.3/Seeed Studio XIAO ESP32-C6.step"
-			(offset
-				(xyz -7 -8.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
 			)
 		)
 	)

@@ -4359,6 +4359,97 @@
 			)
 		)
 	)
+	(footprint "MyProSoleLib:Unbenannt"
+		(layer "F.Cu")
+		(uuid "d1fb3d02-b612-4345-bcef-face1295c536")
+		(at 81.6 67.5 180)
+		(property "Reference" "REF**"
+			(at 0 -0.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bce2fc0b-8299-4941-8c8d-3e4453ffaf0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Unbenannt"
+			(at 0 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9d3656f2-28de-4571-8cf0-a3ae1dfdded8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "569ce37f-8b98-4953-bc4b-a7f4023e97f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18f38498-ed4f-4fd0-9924-73a8947bb192")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -15.5 -6.5)
+			(end 5.5 11.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "21903c72-cb6a-497d-97b5-ee5ba079fcad")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "721f83d7-6cfb-443c-9dea-0ccab8eb717c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "/home/bgores/Dokumente/seeed-studio-xiao-esp32-c6-1.snapshot.3/Seeed Studio XIAO ESP32-C6.step"
+			(offset
+				(xyz -7 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d32b7967-4467-4fc6-a425-ea13331339f1")
@@ -6644,7 +6735,7 @@
 		)
 	)
 	(gr_text "Batterie"
-		(at 84.345 39.9 0)
+		(at 103.6 58.8 0)
 		(layer "F.SilkS")
 		(uuid "af4dd444-2aef-465c-aadc-83e39f5c9ee6")
 		(effects
@@ -6655,14 +6746,15 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "V1.0\nBG/2025-12"
-		(at 109.8 68.6 0)
+	(gr_text "MyProSole V1.01\nBG/2026-01"
+		(at 124 69.4 0)
 		(layer "B.SilkS")
 		(uuid "410972da-6741-40d3-a89d-fa1cab3939cf")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)

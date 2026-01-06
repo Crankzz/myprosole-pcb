@@ -1799,6 +1799,98 @@
 			)
 		)
 	)
+	(footprint "MyProSoleLibrary:Seeed_ESP32C3_Offset"
+		(layer "F.Cu")
+		(uuid "51267e35-70fe-405a-a088-f5bc42d61d2d")
+		(at 86 64)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd93b8f7-98eb-4381-9861-28ea1f84f7b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Seeed_ESP32C3_Offset"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef4130b5-bfd3-4a54-8ce9-4009c4c5664c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cad79179-5f18-4445-a75b-074a31907db8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f52b2b4-9f3f-41e5-a7bb-63ff64c5d2e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -12.5 -3.5)
+			(end -5.5 5.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "45b0a0e5-1925-46ac-81ef-927793754096")
+		)
+		(fp_rect
+			(start -10.5 -8)
+			(end 10.5 10)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ac42c599-c9dc-4afe-93a2-4f651aae8fff")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/step_files/Seeed Studio XIAO-ESP32-C3.step"
+			(offset
+				(xyz 2 5.5 9.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "55405d33-c14e-4355-b5aa-19010e38f810")

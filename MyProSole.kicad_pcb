@@ -401,6 +401,98 @@
 			)
 		)
 	)
+	(footprint "MyProSoleLibrary:jst_4pin"
+		(layer "F.Cu")
+		(uuid "0e5d6fcb-5e9c-4440-a2b8-8b1389fd55d1")
+		(at 121.9 82.4 90)
+		(property "Reference" "REF**"
+			(at 0 -0.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "768469cf-3443-4715-9366-f0c8c5a9add9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "jst_4pin"
+			(at 0 1 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7287d3a5-a689-4ed7-890a-f374505ea2c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b0b6ebd-48c3-4475-9787-20b7a10f4a60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11a7af75-8daa-4562-b7c8-44d57c595d5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -2.75 -2.75)
+			(end 3.25 -2.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2146b85e-dfa6-425d-9d46-e66c3f472bc5")
+		)
+		(fp_rect
+			(start -5.75 -2.75)
+			(end 6.25 2.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "40ecd60e-cdfa-4f79-bd16-9b636012f197")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/step_files/jst4pins.step"
+			(offset
+				(xyz -18.5 13 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0f16a039-9248-4e81-b7b2-f0054c88e546")
@@ -597,6 +689,98 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MyProSoleLibrary:2pin_jst"
+		(layer "F.Cu")
+		(uuid "1411f260-fbb1-473f-acf1-d8a005e0e12a")
+		(at 94 85.5)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b6fff57-b108-4466-98f3-aa54c9c57a60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "2pin_jst"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c856bff-fa8e-4c26-a1f7-00b27c0eac24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3a2f8a7-f8e0-4e15-97de-7ad3eb433fca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4317538e-3881-4e55-aef2-3610beb696e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -7.5 -3)
+			(end 0 2.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "9087c1c0-386b-4c18-8a01-d30c2a1a6265")
+		)
+		(fp_rect
+			(start -5.5 -3)
+			(end -2 -2.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b1158e5a-50ba-49e3-9731-153d63bda8e7")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/step_files/jst2pins.step"
+			(offset
+				(xyz -32.5 -27.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -1335,7 +1519,7 @@
 			(at 3.75 -3.55 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "96523855-7d01-4bf9-a7ef-80a141177a56")
+			(uuid "617dc1b8-c5f8-4a88-a8e8-e9eb37f0df18")
 			(effects
 				(font
 					(size 1 1)
@@ -1346,7 +1530,7 @@
 		(property "Value" "i2c-bus"
 			(at 3.75 -3.775 90)
 			(layer "F.SilkS")
-			(uuid "1323623d-69de-4285-bb22-abe971aedb47")
+			(uuid "ba2185e4-7511-4728-af38-c3e078235a5e")
 			(effects
 				(font
 					(size 1 1)
@@ -1358,7 +1542,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dcb0282e-25c2-43ee-a7bb-93ce18400445")
+			(uuid "f9ae41e5-dadd-4d12-b066-312232d8654c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1554,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "edbd44df-7c6d-43e6-ae7e-2ac30a8d02a0")
+			(uuid "64153678-e768-45b3-b283-13a21a733659")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,6 +2072,98 @@
 			)
 			(rotate
 				(xyz -90 -0 -180)
+			)
+		)
+	)
+	(footprint "MyProSoleLibrary:2pin_jst"
+		(layer "F.Cu")
+		(uuid "53c484a4-e81c-45b9-bcb6-978778422052")
+		(at 104.25 85.5)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a5d17283-fd3f-445c-80ed-75aaa80eb3f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "2pin_jst"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88ee102d-8929-4981-8c2d-13e6f331ceae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b8013b3-90ed-407d-ab43-e74f389d6a56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e55f31a9-54a1-4042-a7a1-e6931934f983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -7.5 -3)
+			(end 0 2.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "f311d9c1-bbbc-44eb-88e5-e15e07fb583e")
+		)
+		(fp_rect
+			(start -5.5 -3)
+			(end -2 -2.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "777e936a-5926-46ad-b4ea-1cec3fb6405e")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/step_files/jst2pins.step"
+			(offset
+				(xyz -32.5 -27.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -2438,6 +2714,98 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MyProSoleLibrary:diy_sdcard"
+		(layer "F.Cu")
+		(uuid "6b687b7e-0e9c-4837-924e-8ebd79d7af11")
+		(at 125.7 68.65 180)
+		(property "Reference" "REF**"
+			(at 0 -0.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "96b8fde2-78a6-4596-a443-735b3a2d43e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "diy_sdcard"
+			(at 0 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d5587ca-871e-4a99-b841-571e3f951139")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "009cfa0f-80c0-4872-ae74-b34bbbd59be2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40d9c2a1-59d8-426a-a4bd-d044481eac85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -0.25 -1.75)
+			(end 11.75 9.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4a59a9ff-ced5-4dc2-a34e-7a9956efd6f2")
+		)
+		(fp_rect
+			(start -8.75 -5)
+			(end 11.75 12.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2f8f9622-5e71-48cd-bbc6-3f3f916b394c")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/step_files/tinker.step"
+			(offset
+				(xyz 3.5 -1.5 9.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -4162,6 +4530,98 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MyProSoleLibrary:2pin_jst"
+		(layer "F.Cu")
+		(uuid "c5fec9c5-8f55-45d9-945a-67bc13046d6b")
+		(at 114.5 85.5)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "13a1d9e6-82dc-40c4-b7fc-c81369985764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "2pin_jst"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10272668-b77d-480c-9fec-16c605b04d84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9beccfc-86b5-40cd-bfbc-895b5a8d10c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2760b0e-4541-4ffc-b94a-7f7938b5ec13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -7.5 -3)
+			(end 0 2.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ab9b5e7c-946c-4685-93d2-d1433e6cca08")
+		)
+		(fp_rect
+			(start -5.5 -3)
+			(end -2 -2.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d8b27738-3826-4b0b-8195-364c2dbea119")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/step_files/jst2pins.step"
+			(offset
+				(xyz -32.5 -27.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)

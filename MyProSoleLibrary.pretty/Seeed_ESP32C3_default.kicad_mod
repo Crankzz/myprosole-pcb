@@ -61,10 +61,10 @@
 		(end -5.5 5.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "4a6205e5-da95-4f35-b8d6-43c9f52f021e")
 	)
 	(fp_rect
@@ -72,10 +72,10 @@
 		(end 10.5 10)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "fd45be20-28fb-4fdc-acc4-a670aee3f21b")
 	)
 	(embedded_fonts no)

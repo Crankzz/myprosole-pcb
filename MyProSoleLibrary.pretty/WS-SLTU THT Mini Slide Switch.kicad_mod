@@ -1,0 +1,118 @@
+(footprint "WS-SLTU THT Mini Slide Switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c1d3013a-dfb1-424a-82ba-68c057834aeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WS-SLTU THT Mini Slide Switch"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a13b686-c4b6-4e2c-a0c4-909fb4b7cd97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d140864-f572-4335-b671-e7674195f5f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a56fbae1-d40b-4fb3-ab0c-3b3dc26eba16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5 -5.4)
+		(end 5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5145667d-33bf-4260-a4af-9548afdc9222")
+	)
+	(fp_poly
+		(pts
+			(xy 5 -5.4) (xy 0 -6.8) (xy -5 -5.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "6bf022fa-abf4-49e2-936c-ec7a19b04149")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.76 1.76)
+		(drill 0.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4134f5ab-0b15-48e2-a372-fbc78c4e78be")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 1.76 1.76)
+		(drill 0.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b916982e-d7e1-488f-99c9-7ed3dbe35e0a")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.76 1.76)
+		(drill 0.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "321c6ac0-5852-45f6-b7c0-dafcd19c5679")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/step_files/450302014072 (rev1).stp"
+		(offset
+			(xyz 0 0.5 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

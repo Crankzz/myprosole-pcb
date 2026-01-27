@@ -7918,9 +7918,9 @@
 	(footprint "MyProSoleLibrary:diy_sdcard"
 		(layer "F.Cu")
 		(uuid "fb6d8f6a-a0a1-4f75-aee4-343d6f88f997")
-		(at 122.25 61.2)
+		(at 126.2 68.8 180)
 		(property "Reference" "REF**"
-			(at 0 -0.5 0)
+			(at 0 -0.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7933,7 +7933,7 @@
 			)
 		)
 		(property "Value" "diy_sdcard"
-			(at 0 1 0)
+			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7946,7 +7946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7959,7 +7959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7973,17 +7973,6 @@
 		)
 		(attr smd)
 		(fp_rect
-			(start -8.75 -5)
-			(end 11.75 12.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "Dwgs.User")
-			(uuid "6ce3a1d9-c91d-466b-bd0f-21fda13ca5bb")
-		)
-		(fp_rect
 			(start -0.25 -1.75)
 			(end 11.75 9.25)
 			(stroke
@@ -7993,6 +7982,17 @@
 			(fill no)
 			(layer "Dwgs.User")
 			(uuid "5a753a31-0654-4416-a81e-17f2157f6957")
+		)
+		(fp_rect
+			(start -8.75 -5)
+			(end 11.75 12.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "6ce3a1d9-c91d-466b-bd0f-21fda13ca5bb")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/step_files/tinker.step"

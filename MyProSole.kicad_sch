@@ -7671,7 +7671,7 @@
 				)
 			)
 		)
-		(property "Value" "FSR3"
+		(property "Value" "FSR1"
 			(at 21.59 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)

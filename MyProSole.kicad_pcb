@@ -1087,7 +1087,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1231f775-1e77-4ca9-a6fb-da5af8a51722")
+			(uuid "24f05f97-8aad-44a8-af62-403427815b4b")
 			(effects
 				(font
 					(size 1 1)
@@ -1100,7 +1100,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64fbc3d5-dd85-4ce6-baa9-663bd45ddd32")
+			(uuid "2275008e-607c-4b18-a442-d58d2bdef23e")
 			(effects
 				(font
 					(size 1 1)
@@ -1113,7 +1113,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1168a3fe-ccb1-4ec1-8e5e-ec9c43f4d9e0")
+			(uuid "583d918a-3bbb-4917-b2ea-67a1893c646e")
 			(effects
 				(font
 					(size 1 1)
@@ -1126,7 +1126,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "735251bf-b6e1-4236-94f3-c28302cd148e")
+			(uuid "0447882e-d615-4ece-a48d-0a54d709f240")
 			(effects
 				(font
 					(size 1 1)
@@ -7012,6 +7012,87 @@
 			(uuid "0a2eef0a-3330-4998-baf6-264cf0df3588")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Library:XIAO_ESP32C3_Aufgesteckt"
+		(layer "F.Cu")
+		(uuid "e7917bef-e4cd-4453-9c6b-fcb8ad0559a6")
+		(at 87.971421 59)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "30591405-228c-4501-87c7-c9608fd3f646")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "XIAO_ESP32C3_Aufgesteckt"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "989db5ad-6b2d-4323-ac1c-b8fa1d32154a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f875eb42-7117-4893-b869-f47df025bbef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fea948c5-68fb-4e75-861c-e327c2a177c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4da93506-f1fd-4926-848e-e7a772a332ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D_Models/Seeed Studio XIAO-ESP32-C3.step"
+			(offset
+				(xyz 0 0 9.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")

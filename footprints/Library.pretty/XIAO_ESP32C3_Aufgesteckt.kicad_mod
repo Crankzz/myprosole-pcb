@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "86ee5bf0-5cc5-4d70-8e82-869af1f72c67")
+		(uuid "9a4702ab-9258-4d6e-857b-4d61d84eacf9")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "21fde8b6-b1a6-43a8-851f-30f55142694c")
+		(uuid "9aa0732b-b8a5-4727-92a6-44bf3e250fbf")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "116aa6cf-58fe-468a-b749-05fbfeae105c")
+		(uuid "1a5497dc-d950-4cc4-b846-7a28b0ac235c")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c90979a3-3690-430c-894b-b55ea2e2cc39")
+		(uuid "f812eb75-fb81-4ed8-901a-43be6ace7246")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c04ac45c-baad-45cc-b902-859e1a12219f")
+		(uuid "d82df40e-f105-46cd-a219-f2e734451072")
 		(effects
 			(font
 				(size 1 1)
@@ -70,13 +70,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D_Models/Seeed Studio XIAO-ESP32-C3.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 9.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -1)
+			(xyz -90 -0 -180)
 		)
 	)
 )

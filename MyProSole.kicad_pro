@@ -686,16 +686,16 @@
       {
         "filename": "MyProSole.kicad_sch",
         "name": "MyProSole",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "387d8c27-351f-4ca1-8104-be77ff5eb18f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1",
     "variants": []
   },
   "sheets": [
     [
       "387d8c27-351f-4ca1-8104-be77ff5eb18f",
-      "Root"
+      "MyProSole"
     ]
   ],
   "text_variables": {},
